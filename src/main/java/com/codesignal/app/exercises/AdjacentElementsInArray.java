@@ -1,6 +1,6 @@
 package com.codesignal.app.exercises;
 
-public class adjacentElementsInArray {
+public class AdjacentElementsInArray {
     public static void main(String[] args) {
 
         int[] inputArray = {-1, 100};
