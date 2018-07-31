@@ -9,6 +9,7 @@ public class CheckPalindrome {
 
         char[] charArray = inputString.toCharArray();
         String palindrome = "";
+        //Jeżeli w pętli kosntruujemy Stringi ze względów wydajnościowych dobrze jest użwyać StringBuffera
         for (int i = charArray.length - 1; i >= 0; i--) {
             palindrome += charArray[i];
         }
